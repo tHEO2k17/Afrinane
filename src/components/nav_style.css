@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #35415E;
+}
+
+.nav-item-text{
+    color:white;  
+}
+
+.nav-item-text ul{
+    list-style-type: none;
+    
+}
+
+.nav-item-text ul li{
+    padding-right:35px;
+}
+
+.nav-text:hover{
+    color:red;
+}
+
+li .active{
+    color:#F3BE18;
+}
+
+
+
+
+.nav-text{
+    color:white;
+}
+
+.navbar-icons{
+    background-color: #35415E;
+    width:80px;
+    height:100vh;
+}
+
+.nav-item-icons{
+    color:white;  
+}
+
+.nav-item-icons ul{
+    list-style-type: none;
+    margin-left:-25px;
+    padding-top: 100px;
+}
+
+
+.nav-item-icons ul li {
+    padding-bottom:30px;
+    
+}
+
+
+.nav-item-icons ul li Link{
+    background-color: aliceblue;
+}
+
+.nav-icon{
+    color:white;
+}

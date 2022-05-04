@@ -1,0 +1,139 @@
+.Main-Home{
+    display: flex;
+}
+
+.home-content{
+    width:100%;
+    height:100vh;
+    background-color: #2A3550; 
+    display:flex;
+}
+
+.stat-cards{
+display: flex;
+margin-left:5%;
+margin-top:5%;
+background-color:#2A3550,
+
+}
+
+.cards{
+    padding-right:30px;
+    
+}
+
+.img{
+    /* background-color: white; */
+    height:30px;
+    width:40px;
+    padding-left:40px;
+    padding-top:5px;
+    background-color: url("../images/circle.svg");
+}
+.img-icon{
+    padding-left: 10px;
+    padding:15px;
+    height:50px;
+    padding-right:60px;
+}
+
+span{
+    color:#8993AB;
+    font-size:12px;
+    padding-left:10px;
+}
+
+.currency{
+    color:white;
+    padding-left:10px;
+    font-weight: bold;
+    padding-top:10px;
+}
+
+.currency-rate{
+    color:#8993AB;
+    font-size:15px;
+    padding-left:10px;
+    padding-top: 10px;
+}
+
+.transaction-type-button{
+    display:flex;
+    position:absolute;
+    right:1%;
+    margin-top:20px;
+    border-radius:3px;
+    border:1px solid #F3BE18;
+}
+
+.deposit{
+    padding:5px 20px 5px 20px;
+    background-color:#F3BE18 ;
+    font-size: 15px;
+     border:none;
+}
+
+.receive{
+    padding:5px 20px 5px 20px;
+    background-color:#2A3550 ;
+    font-size: 15px;
+    color:#F3BE18 ;
+     border:none;
+}
+
+.transaction-table{
+    margin-top:5%;
+    margin-left:5%;
+}
+
+th{
+    color:#ADB9D8;
+    font-size:12px;
+    width:200px;
+    font-weight: lighter;
+    padding-left:15px;
+    
+}
+tr td{
+background-color:#35415E;
+ 
+}
+
+td{
+    color:white;
+    font-size:12px;
+    padding-bottom:15px;
+    padding-top:15px;
+    padding-left:15px;  
+}
+
+/* tbody tr{   
+    border-radius:5px;
+    margin-bottom:10px;
+    background-color:#35415E;
+} */
+
+.gfg {
+  border-collapse:separate;
+  border-spacing:0 15px;
+ 
+ }
+
+ .in-progress span{
+     padding:5px 10px 5px 10px;
+     background:#4d4946;
+     color:#FF9C46;
+     border-radius:5px;
+      text-transform: uppercase;
+       font-size: 10px;
+ }
+
+  .complete span{
+     padding:5px 10px 5px 10px;
+     background:#36456a;
+    
+     color:#6280FF;
+     border-radius:5px;
+      text-transform: uppercase;
+      font-size: 10px;
+ }
